@@ -11,7 +11,7 @@
             "simplify_below": 14,
             "simplify_level": 0.0001,
             "simplify_ratio": 2,
-            "combine_below": 15
+            "combine_below": 0
         },
         "boundary_labels": {
             "minzoom": 2,
@@ -29,7 +29,7 @@
             "simplify_below": 14,
             "simplify_level": 0.0001,
             "simplify_ratio": 2,
-            "combine_below": 15
+            "combine_below": 0
         },
         "water_lines_labels": {
             "minzoom": 4,
@@ -37,7 +37,7 @@
             "simplify_below": 14,
             "simplify_level": 0.0002,
             "simplify_ratio": 2,
-            "combine_below": 15
+            "combine_below": 0
         },
         "dam_lines": {
             "minzoom": 12,
@@ -45,7 +45,7 @@
             "simplify_below": 14,
             "simplify_level": 0.0001,
             "simplify_ratio": 2,
-            "combine_below": 15
+            "combine_below": 0
         },
         "dam_polygons": {
             "minzoom": 12,
@@ -78,7 +78,7 @@
         "street_polygons": {
             "minzoom": 11,
             "maxzoom": 14,
-            "combine_below": 15,
+            "combine_below": 0,
             "simplify_below": 14,
             "simplify_level": 0.0001,
             "simplify_ratio": 2
@@ -94,14 +94,14 @@
         "streets": {
             "minzoom": 14,
             "maxzoom": 14,
-            "combine_below": 15
+            "combine_below": 0
         },
         "streets_med": {
             "minzoom": 11,
             "maxzoom": 13,
             "simplify_below": 14,
             "simplify_level": 0.0002,
-            "combine_below": 14,
+            "combine_below": 0,
             "write_to": "streets"
         },
         "streets_low": {
@@ -109,7 +109,7 @@
             "maxzoom": 10,
             "simplify_below": 14,
             "simplify_level": 0.0001,
-            "combine_below": 11,
+            "combine_below": 0,
             "write_to": "streets"
         },
         "street_labels": {
@@ -117,7 +117,7 @@
             "maxzoom": 14,
             "simplify_below": 14,
             "simplify_level": 0.0002,
-            "combine_below": 15
+            "combine_below": 0
         },
         "street_labels_points": {
             "minzoom": 12,
@@ -189,7 +189,7 @@
         "maxzoom": 14,
         "basezoom": 14,
         "include_ids": false,
-        "combine_below": 14,
+        "combine_below": 0,
         "name": "Shortbread",
         "version": "1.0",
         "description": "Tile config for a simple vector tiles schema",
